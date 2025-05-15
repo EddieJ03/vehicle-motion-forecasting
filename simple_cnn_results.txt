@@ -1,0 +1,200 @@
+Epoch 1/100: 100%|██████████| 149/149 [00:01<00:00, 87.43it/s] 
+Epoch 1, Train Loss: 1675.4854, Train MAE: 26.2325, Validation Loss: 1604.4147, Validation MAE: 25.8657
+Epoch 2/100: 100%|██████████| 149/149 [00:00<00:00, 205.40it/s]
+Epoch 2, Train Loss: 1560.6206, Train MAE: 25.3632, Validation Loss: 1604.3738, Validation MAE: 25.8670
+Epoch 3/100: 100%|██████████| 149/149 [00:00<00:00, 200.66it/s]
+Epoch 3, Train Loss: 1560.2749, Train MAE: 25.3647, Validation Loss: 1604.3124, Validation MAE: 25.8642
+Epoch 4/100: 100%|██████████| 149/149 [00:00<00:00, 191.84it/s]
+Epoch 4, Train Loss: 1559.8472, Train MAE: 25.3567, Validation Loss: 1604.3116, Validation MAE: 25.8645
+Epoch 5/100: 100%|██████████| 149/149 [00:00<00:00, 201.50it/s]
+Epoch 5, Train Loss: 1558.8789, Train MAE: 25.3442, Validation Loss: 1604.3102, Validation MAE: 25.8645
+Epoch 6/100: 100%|██████████| 149/149 [00:00<00:00, 207.81it/s]
+Epoch 6, Train Loss: 1559.6987, Train MAE: 25.3608, Validation Loss: 1604.3067, Validation MAE: 25.8646
+Epoch 7/100: 100%|██████████| 149/149 [00:00<00:00, 201.90it/s]
+Epoch 7, Train Loss: 1561.2235, Train MAE: 25.3808, Validation Loss: 1604.3041, Validation MAE: 25.8647
+Epoch 8/100: 100%|██████████| 149/149 [00:00<00:00, 198.53it/s]
+Epoch 8, Train Loss: 1556.9471, Train MAE: 25.3268, Validation Loss: 1604.3013, Validation MAE: 25.8648
+Epoch 9/100: 100%|██████████| 149/149 [00:00<00:00, 199.60it/s]
+Epoch 9, Train Loss: 1561.6161, Train MAE: 25.3759, Validation Loss: 1604.2984, Validation MAE: 25.8649
+Epoch 10/100: 100%|██████████| 149/149 [00:00<00:00, 207.98it/s]
+Epoch 10, Train Loss: 1559.1361, Train MAE: 25.3530, Validation Loss: 1604.2958, Validation MAE: 25.8649
+Epoch 11/100: 100%|██████████| 149/149 [00:00<00:00, 200.06it/s]
+Epoch 11, Train Loss: 1559.8092, Train MAE: 25.3678, Validation Loss: 1604.2927, Validation MAE: 25.8650
+Epoch 12/100: 100%|██████████| 149/149 [00:00<00:00, 196.09it/s]
+Epoch 12, Train Loss: 1557.6139, Train MAE: 25.3319, Validation Loss: 1604.2900, Validation MAE: 25.8652
+Epoch 13/100: 100%|██████████| 149/149 [00:00<00:00, 208.14it/s]
+Epoch 13, Train Loss: 1560.7250, Train MAE: 25.3785, Validation Loss: 1604.2875, Validation MAE: 25.8653
+Epoch 14/100: 100%|██████████| 149/149 [00:00<00:00, 204.98it/s]
+Epoch 14, Train Loss: 1559.9559, Train MAE: 25.3697, Validation Loss: 1604.2850, Validation MAE: 25.8654
+Epoch 15/100: 100%|██████████| 149/149 [00:00<00:00, 206.01it/s]
+Epoch 15, Train Loss: 1558.4032, Train MAE: 25.3415, Validation Loss: 1604.2821, Validation MAE: 25.8656
+Epoch 16/100: 100%|██████████| 149/149 [00:00<00:00, 199.95it/s]
+Epoch 16, Train Loss: 1560.5046, Train MAE: 25.3686, Validation Loss: 1604.2797, Validation MAE: 25.8657
+Epoch 17/100: 100%|██████████| 149/149 [00:00<00:00, 190.39it/s]
+Epoch 17, Train Loss: 1559.3408, Train MAE: 25.3581, Validation Loss: 1604.2771, Validation MAE: 25.8658
+Epoch 18/100: 100%|██████████| 149/149 [00:00<00:00, 225.82it/s]
+Epoch 18, Train Loss: 1560.3010, Train MAE: 25.3631, Validation Loss: 1604.2753, Validation MAE: 25.8659
+Epoch 19/100: 100%|██████████| 149/149 [00:00<00:00, 232.56it/s]
+Epoch 19, Train Loss: 1559.0830, Train MAE: 25.3592, Validation Loss: 1604.2726, Validation MAE: 25.8661
+Epoch 20/100: 100%|██████████| 149/149 [00:00<00:00, 228.87it/s]
+Epoch 20, Train Loss: 1557.7425, Train MAE: 25.3443, Validation Loss: 1604.2697, Validation MAE: 25.8663
+Epoch 21/100: 100%|██████████| 149/149 [00:00<00:00, 232.74it/s]
+Epoch 21, Train Loss: 1559.9318, Train MAE: 25.3686, Validation Loss: 1604.2679, Validation MAE: 25.8664
+Epoch 22/100: 100%|██████████| 149/149 [00:00<00:00, 231.81it/s]
+Epoch 22, Train Loss: 1561.8443, Train MAE: 25.3851, Validation Loss: 1604.2655, Validation MAE: 25.8666
+Epoch 23/100: 100%|██████████| 149/149 [00:00<00:00, 230.21it/s]
+Epoch 23, Train Loss: 1557.7810, Train MAE: 25.3464, Validation Loss: 1604.2630, Validation MAE: 25.8668
+Epoch 24/100: 100%|██████████| 149/149 [00:00<00:00, 202.65it/s]
+Epoch 24, Train Loss: 1559.8545, Train MAE: 25.3642, Validation Loss: 1604.2606, Validation MAE: 25.8670
+Epoch 25/100: 100%|██████████| 149/149 [00:00<00:00, 203.56it/s]
+Epoch 25, Train Loss: 1559.4575, Train MAE: 25.3679, Validation Loss: 1604.2581, Validation MAE: 25.8672
+Epoch 26/100: 100%|██████████| 149/149 [00:00<00:00, 193.27it/s]
+Epoch 26, Train Loss: 1559.8686, Train MAE: 25.3675, Validation Loss: 1604.2557, Validation MAE: 25.8674
+Epoch 27/100: 100%|██████████| 149/149 [00:00<00:00, 198.35it/s]
+Epoch 27, Train Loss: 1560.0740, Train MAE: 25.3687, Validation Loss: 1604.2360, Validation MAE: 25.8675
+Epoch 28/100: 100%|██████████| 149/149 [00:00<00:00, 197.77it/s]
+Epoch 28, Train Loss: 1561.1257, Train MAE: 25.3855, Validation Loss: 1604.2511, Validation MAE: 25.8678
+Epoch 29/100: 100%|██████████| 149/149 [00:00<00:00, 201.74it/s]
+Epoch 29, Train Loss: 1560.0413, Train MAE: 25.3684, Validation Loss: 1604.2032, Validation MAE: 25.8673
+Epoch 30/100: 100%|██████████| 149/149 [00:00<00:00, 194.73it/s]
+Epoch 30, Train Loss: 1560.2738, Train MAE: 25.4188, Validation Loss: 1599.4841, Validation MAE: 25.9319
+Epoch 31/100: 100%|██████████| 149/149 [00:00<00:00, 195.40it/s]
+Epoch 31, Train Loss: 1541.9225, Train MAE: 25.3138, Validation Loss: 1548.6104, Validation MAE: 25.5363
+Epoch 32/100: 100%|██████████| 149/149 [00:00<00:00, 204.96it/s]
+Epoch 32, Train Loss: 1499.7783, Train MAE: 25.1079, Validation Loss: 1495.3100, Validation MAE: 25.3925
+Epoch 33/100: 100%|██████████| 149/149 [00:00<00:00, 197.09it/s]
+Epoch 33, Train Loss: 1447.7618, Train MAE: 24.7276, Validation Loss: 1425.5022, Validation MAE: 24.7552
+Epoch 34/100: 100%|██████████| 149/149 [00:00<00:00, 206.25it/s]
+Epoch 34, Train Loss: 1400.7017, Train MAE: 24.4655, Validation Loss: 1358.3400, Validation MAE: 24.1554
+Epoch 35/100: 100%|██████████| 149/149 [00:00<00:00, 207.87it/s]
+Epoch 35, Train Loss: 1301.7185, Train MAE: 23.5941, Validation Loss: 1111.1133, Validation MAE: 21.5916
+Epoch 36/100: 100%|██████████| 149/149 [00:00<00:00, 207.12it/s]
+Epoch 36, Train Loss: 1074.4936, Train MAE: 21.1928, Validation Loss: 707.5695, Validation MAE: 17.0669
+Epoch 37/100: 100%|██████████| 149/149 [00:00<00:00, 203.18it/s]
+Epoch 37, Train Loss: 577.6952, Train MAE: 15.1620, Validation Loss: 137.0524, Validation MAE: 7.5833
+Epoch 38/100: 100%|██████████| 149/149 [00:00<00:00, 205.87it/s]
+Epoch 38, Train Loss: 269.9928, Train MAE: 10.3642, Validation Loss: 75.2359, Validation MAE: 5.5956
+Epoch 39/100: 100%|██████████| 149/149 [00:00<00:00, 208.78it/s]
+Epoch 39, Train Loss: 200.6370, Train MAE: 8.9875, Validation Loss: 55.9896, Validation MAE: 4.7807
+Epoch 40/100: 100%|██████████| 149/149 [00:00<00:00, 212.33it/s]
+Epoch 40, Train Loss: 171.1742, Train MAE: 8.3090, Validation Loss: 49.0073, Validation MAE: 4.4648
+Epoch 41/100: 100%|██████████| 149/149 [00:00<00:00, 202.10it/s]
+Epoch 41, Train Loss: 157.7907, Train MAE: 7.9932, Validation Loss: 43.3700, Validation MAE: 4.1925
+Epoch 42/100: 100%|██████████| 149/149 [00:00<00:00, 213.44it/s]
+Epoch 42, Train Loss: 145.4818, Train MAE: 7.7142, Validation Loss: 41.3641, Validation MAE: 4.0836
+Epoch 43/100: 100%|██████████| 149/149 [00:00<00:00, 199.87it/s]
+Epoch 43, Train Loss: 137.9264, Train MAE: 7.4559, Validation Loss: 38.8788, Validation MAE: 3.9116
+Epoch 44/100: 100%|██████████| 149/149 [00:00<00:00, 184.05it/s]
+Epoch 44, Train Loss: 131.6488, Train MAE: 7.3237, Validation Loss: 42.4206, Validation MAE: 4.2027
+Epoch 45/100: 100%|██████████| 149/149 [00:00<00:00, 195.54it/s]
+Epoch 45, Train Loss: 129.9678, Train MAE: 7.2597, Validation Loss: 40.5415, Validation MAE: 4.0946
+Epoch 46/100: 100%|██████████| 149/149 [00:00<00:00, 200.57it/s]
+Epoch 46, Train Loss: 122.2495, Train MAE: 7.0705, Validation Loss: 38.2881, Validation MAE: 3.9740
+Epoch 47/100: 100%|██████████| 149/149 [00:00<00:00, 197.71it/s]
+Epoch 47, Train Loss: 119.5559, Train MAE: 6.9959, Validation Loss: 32.0259, Validation MAE: 3.5719
+Epoch 48/100: 100%|██████████| 149/149 [00:00<00:00, 206.17it/s]
+Epoch 48, Train Loss: 118.5076, Train MAE: 6.9568, Validation Loss: 35.6147, Validation MAE: 3.8008
+Epoch 49/100: 100%|██████████| 149/149 [00:00<00:00, 212.96it/s]
+Epoch 49, Train Loss: 118.5522, Train MAE: 6.9468, Validation Loss: 37.1987, Validation MAE: 3.9352
+Epoch 50/100: 100%|██████████| 149/149 [00:00<00:00, 210.92it/s]
+Epoch 50, Train Loss: 117.2873, Train MAE: 6.9291, Validation Loss: 32.8108, Validation MAE: 3.6647
+Epoch 51/100: 100%|██████████| 149/149 [00:00<00:00, 205.66it/s]
+Epoch 51, Train Loss: 114.4543, Train MAE: 6.8256, Validation Loss: 38.3047, Validation MAE: 3.9956
+Epoch 52/100: 100%|██████████| 149/149 [00:00<00:00, 205.42it/s]
+Epoch 52, Train Loss: 113.2393, Train MAE: 6.8169, Validation Loss: 35.1238, Validation MAE: 3.8333
+Epoch 53/100: 100%|██████████| 149/149 [00:00<00:00, 215.10it/s]
+Epoch 53, Train Loss: 112.1205, Train MAE: 6.7727, Validation Loss: 33.9953, Validation MAE: 3.7370
+Epoch 54/100: 100%|██████████| 149/149 [00:00<00:00, 184.99it/s]
+Epoch 54, Train Loss: 109.9959, Train MAE: 6.7238, Validation Loss: 33.0090, Validation MAE: 3.6669
+Epoch 55/100: 100%|██████████| 149/149 [00:00<00:00, 210.25it/s]
+Epoch 55, Train Loss: 110.7899, Train MAE: 6.7186, Validation Loss: 31.4428, Validation MAE: 3.5674
+Epoch 56/100: 100%|██████████| 149/149 [00:00<00:00, 214.20it/s]
+Epoch 56, Train Loss: 105.8511, Train MAE: 6.6212, Validation Loss: 32.0489, Validation MAE: 3.6385
+Epoch 57/100: 100%|██████████| 149/149 [00:00<00:00, 204.20it/s]
+Epoch 57, Train Loss: 106.1340, Train MAE: 6.6069, Validation Loss: 34.6432, Validation MAE: 3.7903
+Epoch 58/100: 100%|██████████| 149/149 [00:00<00:00, 210.76it/s]
+Epoch 58, Train Loss: 105.9312, Train MAE: 6.5819, Validation Loss: 33.7061, Validation MAE: 3.7070
+Epoch 59/100: 100%|██████████| 149/149 [00:00<00:00, 208.87it/s]
+Epoch 59, Train Loss: 106.3115, Train MAE: 6.6000, Validation Loss: 30.2109, Validation MAE: 3.5199
+Epoch 60/100: 100%|██████████| 149/149 [00:00<00:00, 210.11it/s]
+Epoch 60, Train Loss: 102.2898, Train MAE: 6.4923, Validation Loss: 32.1407, Validation MAE: 3.6417
+Epoch 61/100: 100%|██████████| 149/149 [00:00<00:00, 209.57it/s]
+Epoch 61, Train Loss: 104.8454, Train MAE: 6.5532, Validation Loss: 30.7831, Validation MAE: 3.5645
+Epoch 62/100: 100%|██████████| 149/149 [00:00<00:00, 206.56it/s]
+Epoch 62, Train Loss: 102.1807, Train MAE: 6.5009, Validation Loss: 27.7406, Validation MAE: 3.3239
+Epoch 63/100: 100%|██████████| 149/149 [00:00<00:00, 188.66it/s]
+Epoch 63, Train Loss: 104.3004, Train MAE: 6.5437, Validation Loss: 31.8514, Validation MAE: 3.5877
+Epoch 64/100: 100%|██████████| 149/149 [00:00<00:00, 185.29it/s]
+Epoch 64, Train Loss: 99.9477, Train MAE: 6.4404, Validation Loss: 32.0965, Validation MAE: 3.6326
+Epoch 65/100: 100%|██████████| 149/149 [00:00<00:00, 189.76it/s]
+Epoch 65, Train Loss: 100.8191, Train MAE: 6.4486, Validation Loss: 32.2189, Validation MAE: 3.7177
+Epoch 66/100: 100%|██████████| 149/149 [00:00<00:00, 190.86it/s]
+Epoch 66, Train Loss: 101.3833, Train MAE: 6.4417, Validation Loss: 29.7077, Validation MAE: 3.4769
+Epoch 67/100: 100%|██████████| 149/149 [00:00<00:00, 196.71it/s]
+Epoch 67, Train Loss: 101.4473, Train MAE: 6.4651, Validation Loss: 33.4945, Validation MAE: 3.7386
+Epoch 68/100: 100%|██████████| 149/149 [00:00<00:00, 213.14it/s]
+Epoch 68, Train Loss: 99.6538, Train MAE: 6.4213, Validation Loss: 28.2904, Validation MAE: 3.3870
+Epoch 69/100: 100%|██████████| 149/149 [00:00<00:00, 204.76it/s]
+Epoch 69, Train Loss: 98.9636, Train MAE: 6.3828, Validation Loss: 33.1937, Validation MAE: 3.7407
+Epoch 70/100: 100%|██████████| 149/149 [00:00<00:00, 199.47it/s]
+Epoch 70, Train Loss: 99.4024, Train MAE: 6.4107, Validation Loss: 30.2919, Validation MAE: 3.5373
+Epoch 71/100: 100%|██████████| 149/149 [00:00<00:00, 212.79it/s]
+Epoch 71, Train Loss: 100.2682, Train MAE: 6.3783, Validation Loss: 30.3085, Validation MAE: 3.5744
+Epoch 72/100: 100%|██████████| 149/149 [00:00<00:00, 210.11it/s]
+Epoch 72, Train Loss: 97.5193, Train MAE: 6.3400, Validation Loss: 28.0752, Validation MAE: 3.3936
+Epoch 73/100: 100%|██████████| 149/149 [00:00<00:00, 209.96it/s]
+Epoch 73, Train Loss: 98.3968, Train MAE: 6.3627, Validation Loss: 26.7799, Validation MAE: 3.2736
+Epoch 74/100: 100%|██████████| 149/149 [00:00<00:00, 205.84it/s]
+Epoch 74, Train Loss: 97.4036, Train MAE: 6.2924, Validation Loss: 29.5186, Validation MAE: 3.5071
+Epoch 75/100: 100%|██████████| 149/149 [00:00<00:00, 205.40it/s]
+Epoch 75, Train Loss: 96.3278, Train MAE: 6.3138, Validation Loss: 30.1836, Validation MAE: 3.5814
+Epoch 76/100: 100%|██████████| 149/149 [00:00<00:00, 210.62it/s]
+Epoch 76, Train Loss: 94.1054, Train MAE: 6.2272, Validation Loss: 26.5046, Validation MAE: 3.2883
+Epoch 77/100: 100%|██████████| 149/149 [00:00<00:00, 207.11it/s]
+Epoch 77, Train Loss: 94.7147, Train MAE: 6.2141, Validation Loss: 28.0996, Validation MAE: 3.4078
+Epoch 78/100: 100%|██████████| 149/149 [00:00<00:00, 203.42it/s]
+Epoch 78, Train Loss: 94.7403, Train MAE: 6.2392, Validation Loss: 29.9378, Validation MAE: 3.5070
+Epoch 79/100: 100%|██████████| 149/149 [00:00<00:00, 204.48it/s]
+Epoch 79, Train Loss: 93.8331, Train MAE: 6.2107, Validation Loss: 27.0477, Validation MAE: 3.3142
+Epoch 80/100: 100%|██████████| 149/149 [00:00<00:00, 208.57it/s]
+Epoch 80, Train Loss: 90.6734, Train MAE: 6.0968, Validation Loss: 26.9368, Validation MAE: 3.2986
+Epoch 81/100: 100%|██████████| 149/149 [00:00<00:00, 206.38it/s]
+Epoch 81, Train Loss: 92.9463, Train MAE: 6.1819, Validation Loss: 27.6551, Validation MAE: 3.3645
+Epoch 82/100: 100%|██████████| 149/149 [00:00<00:00, 204.29it/s]
+Epoch 82, Train Loss: 91.6436, Train MAE: 6.1390, Validation Loss: 25.6851, Validation MAE: 3.1980
+Epoch 83/100: 100%|██████████| 149/149 [00:00<00:00, 193.23it/s]
+Epoch 83, Train Loss: 90.3019, Train MAE: 6.0796, Validation Loss: 28.3076, Validation MAE: 3.4409
+Epoch 84/100: 100%|██████████| 149/149 [00:00<00:00, 197.16it/s]
+Epoch 84, Train Loss: 90.3888, Train MAE: 6.1059, Validation Loss: 26.3545, Validation MAE: 3.2755
+Epoch 85/100: 100%|██████████| 149/149 [00:00<00:00, 197.46it/s]
+Epoch 85, Train Loss: 90.2048, Train MAE: 6.0961, Validation Loss: 25.9428, Validation MAE: 3.2141
+Epoch 86/100: 100%|██████████| 149/149 [00:00<00:00, 206.66it/s]
+Epoch 86, Train Loss: 90.2035, Train MAE: 6.0760, Validation Loss: 27.7099, Validation MAE: 3.4050
+Epoch 87/100: 100%|██████████| 149/149 [00:00<00:00, 208.41it/s]
+Epoch 87, Train Loss: 89.5661, Train MAE: 6.0778, Validation Loss: 28.6391, Validation MAE: 3.4317
+Epoch 88/100: 100%|██████████| 149/149 [00:00<00:00, 207.37it/s]
+Epoch 88, Train Loss: 91.3757, Train MAE: 6.0953, Validation Loss: 30.0436, Validation MAE: 3.5664
+Epoch 89/100: 100%|██████████| 149/149 [00:00<00:00, 211.06it/s]
+Epoch 89, Train Loss: 89.8230, Train MAE: 6.0944, Validation Loss: 25.9745, Validation MAE: 3.2464
+Epoch 90/100: 100%|██████████| 149/149 [00:00<00:00, 210.39it/s]
+Epoch 90, Train Loss: 86.4956, Train MAE: 5.9691, Validation Loss: 27.6797, Validation MAE: 3.3760
+Epoch 91/100: 100%|██████████| 149/149 [00:00<00:00, 208.22it/s]
+Epoch 91, Train Loss: 89.6238, Train MAE: 6.1072, Validation Loss: 26.6691, Validation MAE: 3.3090
+Epoch 92/100: 100%|██████████| 149/149 [00:00<00:00, 206.64it/s]
+Epoch 92, Train Loss: 85.7319, Train MAE: 5.9488, Validation Loss: 24.7333, Validation MAE: 3.1330
+Epoch 93/100: 100%|██████████| 149/149 [00:00<00:00, 209.51it/s]
+Epoch 93, Train Loss: 86.8979, Train MAE: 5.9724, Validation Loss: 26.0156, Validation MAE: 3.2884
+Epoch 94/100: 100%|██████████| 149/149 [00:00<00:00, 204.54it/s]
+Epoch 94, Train Loss: 86.8872, Train MAE: 5.9749, Validation Loss: 27.3494, Validation MAE: 3.3623
+Epoch 95/100: 100%|██████████| 149/149 [00:00<00:00, 207.63it/s]
+Epoch 95, Train Loss: 86.8913, Train MAE: 5.9640, Validation Loss: 27.8183, Validation MAE: 3.4017
+Epoch 96/100: 100%|██████████| 149/149 [00:00<00:00, 187.35it/s]
+Epoch 96, Train Loss: 88.5874, Train MAE: 6.0168, Validation Loss: 27.1821, Validation MAE: 3.3650
+Epoch 97/100: 100%|██████████| 149/149 [00:00<00:00, 190.94it/s]
+Epoch 97, Train Loss: 88.1407, Train MAE: 5.9796, Validation Loss: 26.8302, Validation MAE: 3.3312
+Epoch 98/100: 100%|██████████| 149/149 [00:00<00:00, 209.39it/s]
+Epoch 98, Train Loss: 86.5959, Train MAE: 5.9636, Validation Loss: 26.4058, Validation MAE: 3.3221
+Epoch 99/100: 100%|██████████| 149/149 [00:00<00:00, 210.23it/s]
+Epoch 99, Train Loss: 84.5012, Train MAE: 5.9094, Validation Loss: 26.5106, Validation MAE: 3.3082
+Epoch 100/100: 100%|██████████| 149/149 [00:00<00:00, 205.18it/s]
+Epoch 100, Train Loss: 87.3110, Train MAE: 6.0128, Validation Loss: 25.4527, Validation MAE: 3.2123
