@@ -1,5 +1,6 @@
 *.npz
 venv/
+*.pt
 *.png
 __pycache__/
 *.csv
