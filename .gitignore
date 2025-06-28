@@ -1,0 +1,7 @@
+*.npz
+venv/
+*.pt
+*.png
+__pycache__/
+*.csv
+.DS_Store
