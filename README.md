@@ -1,4 +1,4 @@
-# CSE 251B Autonomous Driving Project
+# CSE 251B Vehicle Motion Forecasting Project
 
 Please read [report.pdf](https://github.com/EddieJ03/autonomous-driving/blob/main/report.pdf)! It contains all the details.
 
