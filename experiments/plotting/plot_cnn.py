@@ -10,8 +10,14 @@ plt.figure(figsize=(12, 6))
 
 if cnn_val_mse:
     plt.plot(cnn_epochs, cnn_val_mse, label="Simple CNN", color="green", marker="s", markersize=3, linestyle="-", alpha=0.7, linewidth=2)
+    plt.text(cnn_epochs[-1], cnn_val_mse[-1], f'{cnn_val_mse[-1]:.2f}', 
+             fontsize=10, ha='left', va='center', color='green', 
+             bbox=dict(boxstyle='round,pad=0.3', facecolor='white', edgecolor='green', alpha=0.7))
 if deep_val_mse:
     plt.plot(deep_epochs, deep_val_mse, label="Deep CNN", color="purple", marker="d", markersize=3, linestyle="-", alpha=0.7, linewidth=2)
+    plt.text(deep_epochs[-1], deep_val_mse[-1], f'{deep_val_mse[-1]:.2f}', 
+             fontsize=10, ha='left', va='center', color='purple', 
+             bbox=dict(boxstyle='round,pad=0.3', facecolor='white', edgecolor='purple', alpha=0.7))
 
 plt.xlabel("Epoch", fontsize=12)
 plt.ylabel("Unnormalized Validation MSE", fontsize=12)

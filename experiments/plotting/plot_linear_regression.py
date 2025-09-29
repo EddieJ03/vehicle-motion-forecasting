@@ -9,6 +9,9 @@ plt.figure(figsize=(12, 6))
 
 if linreg_val_mse:
     plt.plot(linreg_epochs, linreg_val_mse, label="Linear Regression", color="red", marker="o", markersize=3, linestyle="-", alpha=0.7, linewidth=2)
+    plt.text(linreg_epochs[-1], linreg_val_mse[-1], f'{linreg_val_mse[-1]:.2f}', 
+             fontsize=10, ha='left', va='center', color='red', 
+             bbox=dict(boxstyle='round,pad=0.3', facecolor='white', edgecolor='red', alpha=0.7))
 
 plt.xlabel("Epoch", fontsize=12)
 plt.ylabel("Unnormalized Validation MSE", fontsize=12)
