@@ -1,6 +1,6 @@
-*.npz
 venv/
-*.png
-__pycache__/
 *.csv
+*.npz
+*.pt
+__pycache__/
 .DS_Store

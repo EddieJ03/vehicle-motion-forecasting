@@ -1,12 +1,36 @@
-# CSE 251B Vehicle Motion Forecasting Project
+# Vehicle Motion Forecasting
 
-Please read [report.pdf](https://github.com/EddieJ03/autonomous-driving/blob/main/report.pdf)! It contains all the details.
+This repository contains the code for a Vehicle Motion Forecasting Competition in Spring 2025 for UCSD's 251B: Deep Learning course.
 
-## Folders
+- Public Score Ranking: <b>13th</b> out of 68 teams
+- Private Score Ranking: <b>14th</b> out of 68 teams
 
-The <b>experiments</b> folder contains Jupyter notebooks with the experiments we ran.
+## Overview
 
-The <b>training_results</b> folder contains text files with the results of the experiments.
+The competition involved forecasting the future positions of agents based on their past positions and velocities. The dataset is based on the <b>Argoverse 2 Motion Forecasting Dataset</b>. Download the train and test data from here: https://drive.google.com/drive/folders/1HvjwglXTPKEtWlpFFtbiPctbRfHmcKNp
 
-The <b>model_weights</b> folder contains some LSTM + attention model weights.
+The training set is of shape <b>(10000, 50, 110, 6)</b>. This means That there are 10,000 training scenes, each scene contains 50 agents' trajectories over 110 time steps, and each time step has 6 dimensions. The 6 dimensions are: 
+- position_x
+- position_y
+- velocity_x
+- velocity_y
+- heading
+- object_type
+
+The test set input has shape <b>(2100, 50, 50, 6)</b>.
+
+<b>The task is to predict the ego vehicle (agent index 0)'s trajectory. Given the first 50 time steps (5 seconds) to predict the next 60 time steps (6 seconds).</b>
+
+Here is an example of 1 scene:
+![Trajectory Visualization](trajectory_visualization_index0.gif)
+
+## Models 
+
+The types of models we trained were Linear Regression, Convolutional Neural Networks, and LSTMs. Please see the model architectures in `/models` directory and the experiments in the `/experiments` directory.
+
+## Results
+
+The <b>LSTM + Attention</b> model performed the best. Here are the plotted training loss and validation loss curves for the models we tried:
+
+
 
