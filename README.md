@@ -22,7 +22,7 @@ The test set input has shape <b>(2100, 50, 50, 6)</b>.
 <b>The task is to predict the ego vehicle (agent index 0)'s trajectory. Given the first 50 time steps (5 seconds) to predict the next 60 time steps (6 seconds).</b>
 
 Here is an example of 1 scene:
-![Trajectory Visualization](trajectory_visualization_index0.gif)
+![Trajectory Visualization](trajectory_visualization_index.gif)
 
 ## Models 
 
@@ -30,7 +30,9 @@ The types of models we trained were Linear Regression, Convolutional Neural Netw
 
 ## Results
 
-The <b>LSTM + Attention</b> model performed the best. Here are the plotted training loss and validation loss curves for the models we tried:
+The <b>LSTM + Attention</b> model performed the best. The validation loss is calculated using the last 5% of the train data. Shown below are the plotted validation loss curves for the models we tried. Some models have less epochs because they stopped training earlier due to early stopping conditions.
 
-
+![LSTM](./experiments/plotting/lstm_val_mse.png)
+![CNN](./experiments/plotting/cnn_val_mse.png)
+![Linear Regression](./experiments/plotting/linear_regression_val_mse.png)
 
