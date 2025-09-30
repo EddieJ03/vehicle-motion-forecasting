@@ -1,6 +1,8 @@
 import tqdm
 import torch
 from torch import nn
+from TrajectoryDataset import TrajectoryDatasetTrain
+import matplotlib.pyplot as plt
 
 def train_model(model, train_dataloader, val_dataloader, device, optimizer, criterion, scheduler, early_stopping_patience=5, save_weights_name="best_model", epochs=100):
     no_improvement = 0
@@ -58,3 +60,34 @@ def train_model(model, train_dataloader, val_dataloader, device, optimizer, crit
             if no_improvement >= early_stopping_patience:
                 print("Early stop!")
                 break
+
+def visualize_trajectory(train_data: TrajectoryDatasetTrain, model, idx, device='cpu'):
+    train_scene = train_data.get_scene(idx)
+    model.eval()  # Set to evaluation mode
+    model.to(device)
+    with torch.no_grad():
+        predictions = model(train_scene.x.unsqueeze(0))
+        predictions = predictions.to(device)
+
+    predictions = predictions * train_scene.scale.view(-1,1,1) + train_scene.origin.unsqueeze(1)
+    train_sample_y = train_scene.y.unsqueeze(0) * train_scene.scale.view(-1,1,1) + train_scene.origin.unsqueeze(1)
+    assert predictions.shape == train_sample_y.shape
+
+    x_pred = predictions[0, :, 0]
+    y_pred = predictions[0, :, 1]
+    x_gt = train_sample_y[0, :, 0]
+    y_gt = train_sample_y[0, :, 1]
+    
+    plt.figure(figsize=(6, 6))
+    plt.plot(x_gt, y_gt, label='Ground Truth', color='blue', marker='o')
+    plt.plot(x_pred, y_pred, label='Prediction', color='red', linestyle='--', marker='x')
+    
+    plt.title(f"Scene {idx} Trajectory")
+    plt.xlabel("X Position")
+    plt.ylabel("Y Position")
+    plt.legend()
+    plt.grid(True)
+    plt.axis('equal')
+    plt.show()
+    
+    

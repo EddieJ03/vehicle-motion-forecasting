@@ -23,13 +23,16 @@ class TrajectoryDatasetTrain(Dataset):
         return len(self.data)
 
     def __getitem__(self, idx):
+        return self.get_scene(idx, self.augment)
+
+    def get_scene(self, idx, augment=False):
         scene = self.data[idx]
         # Getting 50 historical timestamps and 60 future timestamps
         hist = scene[:, :50, :].copy()    # (agents=50, time_seq=50, 6)
         future = torch.tensor(scene[0, 50:, :2].copy(), dtype=torch.float32)  # (60, 2)
         
         # Data augmentation(only for training)
-        if self.augment:
+        if augment:
             if np.random.rand() < 0.5:
                 theta = np.random.uniform(-np.pi, np.pi)
                 R = np.array([[np.cos(theta), -np.sin(theta)],
@@ -59,7 +62,7 @@ class TrajectoryDatasetTrain(Dataset):
         )
 
         return data_item
-    
+
 
 class TrajectoryDatasetTest(Dataset):
     def __init__(self, data, scale=10.0, center_agent=0, scene=49):
@@ -105,10 +108,9 @@ class TrajectoryDatasetTest(Dataset):
             for batch in test_loader:
                 batch = batch.to(device)
                 pred_norm = model(batch.x)
-                
-                # Reshape the prediction to (N, 60, 2)
                 pred = pred_norm * batch.scale.view(-1,1,1) + batch.origin.unsqueeze(1)
                 pred_list.append(pred.cpu().numpy())
+                
         pred_list = np.concatenate(pred_list, axis=0)  # (N,60,2)
         pred_output = pred_list.reshape(-1, 2)  # (N*60, 2)
         output_df = pd.DataFrame(pred_output, columns=['x', 'y'])
